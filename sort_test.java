@@ -234,7 +234,7 @@ public class sort_test {
         return data;
     }
 
-    // Ajanotto ja virheenkäsittely yhdessä paikassa, algoritmi annetaan funktioreferenssinä
+
     public static void testSort(String name, int[] originalData, Consumer<int[]> sorter) {
         int[] copy = Arrays.copyOf(originalData, originalData.length);
 
